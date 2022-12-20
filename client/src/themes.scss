@@ -1,0 +1,29 @@
+@forward '@nebular/theme/styles/theming';
+@use '@nebular/theme/styles/theming' as *;
+@use '@nebular/theme/styles/themes/dark';
+
+$nb-themes: nb-register-theme((
+
+  // add your variables here like:
+
+   color-primary-100: #d38da7,
+   color-primary-200: #dca6b5,
+   color-primary-300: #cb86a8,
+   color-primary-400: #d35d8c,
+   color-primary-500: #ce427a,
+   color-primary-600: #ce3972,
+   color-primary-700: #dc2c6f,
+   color-primary-800: #de1868,
+   color-primary-900: #a40d42,
+
+  color-primary-transparent-100: #d38da7,
+  color-primary-transparent-200: #dca6b5,
+  color-primary-transparent-300: #cb86a8,
+  color-primary-transparent-400: #d35d8c,
+  color-primary-transparent-500: #ce427a,
+  color-primary-transparent-600: #ce3972,
+  color-primary-transparent-700: #dc2c6f,
+  color-primary-transparent-800: #de1868,
+  color-primary-transparent-900: #a40d42,
+
+), custom, default);

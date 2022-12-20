@@ -1,0 +1,17 @@
+{
+  "name": "socker-server-prv",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "target": "es2015",
+  "main": "socket-server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.5.3",
+    "ws": "^8.11.0"
+  }
+}

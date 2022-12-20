@@ -1,0 +1,10 @@
+<nb-chat>
+  <nb-chat-message
+    *ngFor="let msg of messages"
+    [message]="msg.getData()"
+    [reply]="isReply(msg)"
+    [sender]="msg.uid"
+  ></nb-chat-message>
+  <nb-chat-form (send)="sendMessage($event)">
+  </nb-chat-form>
+</nb-chat>
